@@ -6,7 +6,6 @@ First give a try run without input then give input in second run
 using namespace std;
 
 class calc { 
-	
 	public : 
 	
  calc () { 
@@ -106,7 +105,6 @@ int main()
 			cout << "\n"; 
 			
 		switch (op) { 
-			
 			case '+' : 
 			obj.add(num1 , num2); 
 			break; 
