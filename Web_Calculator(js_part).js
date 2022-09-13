@@ -1,8 +1,6 @@
 $(document).ready(function() {
   //variable to store all input received
   var arithmetic = "";
-  
-  var number = "1234567890";
   var operator = "/*+-^";
   var lastItem, result;
   /// add click effect to the buttons
