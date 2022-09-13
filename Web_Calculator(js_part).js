@@ -59,7 +59,7 @@ $(document).ready(function() {
   if($(this).hasClass("clear")){
     $("#console1").html("0");
     arithmetic = "";
-  };// end clear
+  }// end clear
 
 
        if($(this).hasClass("delete")){
@@ -67,7 +67,7 @@ $(document).ready(function() {
     $('#console1').html(arithmetic);
 
 
-  }; // end delete
+  } // end delete
 
               //adding up
   if($(this).hasClass("equal") && arithmetic.length){
@@ -97,7 +97,7 @@ $(document).ready(function() {
       arithmetic = result.toString(); // reset arithmetic to the final result;
 
       
-        };
+        }
   
 
 
