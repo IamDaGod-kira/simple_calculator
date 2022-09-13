@@ -35,7 +35,7 @@ $(document).ready(function() {
 
       //handling click of decimal point (.), prevent multiple in a number
       if($(this).hasClass('decimal')){
-        arithmetic = arithmetic.split(/(?=[-+*\/])/);
+        arithmetic = arithmetic.split(/(?=[-+*/])/);
         var lastNum = arithmetic[arithmetic.length-1];
             lastNum = lastNum.slice(1);
        
@@ -72,7 +72,7 @@ $(document).ready(function() {
 
     //arithmetic to array and loop to perform math operation one after the other
 
-    arithmetic = arithmetic.split(/(?=[-+*\/])/);
+    arithmetic = arithmetic.split(/(?=[-+*/])/);
     var temp = "";
     for(var i = 0; i < arithmetic.length; i++){
       temp += arithmetic[i];
